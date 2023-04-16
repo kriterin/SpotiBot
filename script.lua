@@ -1,4 +1,5 @@
 --_G.token = "token here"
+-- I added a function to check if a song is explicit because people love playing disgusting songs sometimes
 if not _G.token then return printconsole("[SpotiBot] ERROR: no API token provided",255,0,0) end
 
 local token = _G.token
@@ -254,4 +255,4 @@ for i,v in pairs(game.Players:GetPlayers()) do
 end
 game.Players.PlayerAdded:Connect(loadcmds)
 --skipsong()
-chat("SpotiBot V0.8 by quirky anime boy started, type #cmds to begin.") 
+chat("SpotiBot V0.8 by quirky anime boy slightly modified by Macro#8232 has started, type #cmds to begin.") 
